@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hava_Durumu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tKK-55-SDc"/>
+                        <viewControllerLayoutGuide type="bottom" id="xOp-53-te3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="havadurumu" translatesAutoresizingMaskIntoConstraints="NO" id="cbj-DK-Kjb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="1" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PU3-NA-pSN">
+                                <rect key="frame" x="20" y="217" width="374" height="645"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOCALICATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frr-jv-ZUe">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="144"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFORMATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DP6-9D-3P8">
+                                        <rect key="frame" x="0.0" y="125" width="374" height="144.5"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..℃" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VTg-yo-OfY">
+                                        <rect key="frame" x="0.0" y="250.5" width="374" height="144"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HUMIDITY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aM7-NH-Dlb">
+                                        <rect key="frame" x="0.0" y="375.5" width="374" height="144.5"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="%.." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eul-xg-G6M">
+                                        <rect key="frame" x="0.0" y="501" width="374" height="144"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="aM7-NH-Dlb" firstAttribute="leading" secondItem="PU3-NA-pSN" secondAttribute="leading" id="8dR-Ac-j2s"/>
+                                    <constraint firstAttribute="trailing" secondItem="frr-jv-ZUe" secondAttribute="trailing" id="9wh-pp-k46"/>
+                                    <constraint firstAttribute="trailing" secondItem="aM7-NH-Dlb" secondAttribute="trailing" id="BB9-v1-pjH"/>
+                                    <constraint firstAttribute="trailing" secondItem="VTg-yo-OfY" secondAttribute="trailing" id="CIL-QE-dK7"/>
+                                    <constraint firstItem="frr-jv-ZUe" firstAttribute="leading" secondItem="PU3-NA-pSN" secondAttribute="leading" id="Q0a-Fe-dHd"/>
+                                    <constraint firstItem="Eul-xg-G6M" firstAttribute="leading" secondItem="PU3-NA-pSN" secondAttribute="leading" id="T9q-9r-pyU"/>
+                                    <constraint firstItem="DP6-9D-3P8" firstAttribute="leading" secondItem="PU3-NA-pSN" secondAttribute="leading" id="aBq-O4-3vi"/>
+                                    <constraint firstItem="VTg-yo-OfY" firstAttribute="leading" secondItem="PU3-NA-pSN" secondAttribute="leading" id="ebB-PA-4aU"/>
+                                    <constraint firstAttribute="trailing" secondItem="DP6-9D-3P8" secondAttribute="trailing" id="jHf-IK-vCC"/>
+                                    <constraint firstAttribute="trailing" secondItem="Eul-xg-G6M" secondAttribute="trailing" id="ldq-Mu-gfd"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01d" translatesAutoresizingMaskIntoConstraints="NO" id="dVT-Pn-1zO">
+                                <rect key="frame" x="20" y="49" width="374" height="168"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="168" id="IBf-4c-L3j"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="quaternaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.17999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cbj-DK-Kjb" secondAttribute="trailing" id="5Gk-8D-bHS"/>
+                            <constraint firstItem="cbj-DK-Kjb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5oJ-0o-AzH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PU3-NA-pSN" secondAttribute="trailing" id="7bG-6V-Ec7"/>
+                            <constraint firstItem="xOp-53-te3" firstAttribute="top" secondItem="PU3-NA-pSN" secondAttribute="bottom" id="L8T-7T-Ryu"/>
+                            <constraint firstItem="xOp-53-te3" firstAttribute="top" secondItem="cbj-DK-Kjb" secondAttribute="bottom" id="Nec-OV-Xn1"/>
+                            <constraint firstItem="PU3-NA-pSN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PXx-BE-8La"/>
+                            <constraint firstItem="dVT-Pn-1zO" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="bYz-gg-nqW"/>
+                            <constraint firstItem="cbj-DK-Kjb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="m05-GX-66I"/>
+                            <constraint firstItem="PU3-NA-pSN" firstAttribute="top" secondItem="dVT-Pn-1zO" secondAttribute="bottom" id="qiT-mQ-57r"/>
+                            <constraint firstItem="dVT-Pn-1zO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="r5l-b8-ydb"/>
+                            <constraint firstItem="dVT-Pn-1zO" firstAttribute="top" secondItem="tKK-55-SDc" secondAttribute="bottom" constant="5" id="zbl-lZ-EmY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bilgiLbl" destination="DP6-9D-3P8" id="EnH-nN-64j"/>
+                        <outlet property="dereceLbl" destination="VTg-yo-OfY" id="nYi-Lr-yej"/>
+                        <outlet property="durumImage" destination="dVT-Pn-1zO" id="8ah-Jn-2MG"/>
+                        <outlet property="localization" destination="frr-jv-ZUe" id="FV1-Uv-xKE"/>
+                        <outlet property="nemLbl" destination="Eul-xg-G6M" id="MGx-RS-wN7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-914.49275362318849" y="37.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="01d" width="50" height="50"/>
+        <image name="havadurumu" width="400" height="204"/>
+    </resources>
+</document>
